@@ -1,22 +1,3 @@
-/*import React,{Component} from "react";
-
-class Card extends Component{
-    render() {
-        return(
-            <div className="card mt-5">
-                <img className="card-img-top" src={this.props.picture} alt="Card image cap"></img>
-                <div className="card-body">
-                    <h3 className="card-title">{this.props.title}</h3>
-                    <h4 className="card-title">{this.props.price}</h4>
-                </div>
-            </div>
-        );
-    }
-}
-
-export default Card;*/
-
-
 import React, { Component } from 'react';
 
 class Card extends Component {
