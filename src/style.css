@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Merriweather', serif;
+}
+
+#sortBy{
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.filter{
+    color: black;
+}
+
+.filter:hover{
+    text-decoration: none;
+    border : none;
+    color: black;
+}
+
+.active-class{
+    color: blue;
+    border-bottom: 3px solid blue;
+    cursor: context-menu;
+    font-weight: bold;
+}
+
+.active-class:hover{
+    text-decoration: none;
+    color: blueviolet;
+}
