@@ -34,3 +34,8 @@ body{
     text-decoration: none;
     color: blueviolet;
 }
+
+
+.card-title{
+    font-family: 'Merriweather', serif;
+}
